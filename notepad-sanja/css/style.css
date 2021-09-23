@@ -1,0 +1,137 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.pre-header {
+    text-transform: uppercase;
+    color: black;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    text-shadow: 2px 2px rgb(68, 67, 67);
+}
+
+.pre-header #title {
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+.pre-header #title img {
+    display: none;
+    
+}
+
+.pre-header #datum {
+    text-align: right;
+    font-weight: 600;
+}
+
+.pre-header #img-left {
+    text-align: left;
+}
+
+
+* {
+    font-family: 'Comic Sans MS', 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+.notes-section #paper {
+	color:#000;
+	font-size: 20px;
+}
+.notes-section #dayz {
+	margin-bottom: 15px;
+    text-shadow: 1px 1px rgb(68, 67, 67);
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+.notes-section #dayz img {
+    padding-left: 1px;
+    padding-bottom: 2px;
+}
+.notes-section .text {
+	overflow: scroll;
+	color:#222;
+	font-weight: 600;
+	font-size: 18px;
+	resize: none;
+	line-height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px 0px 0px 12px;
+	-webkit-box-shadow: 0px 2px 14px #000;
+	box-shadow: 0px 2px 14px #000;
+	border: 1px solid rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+
+.notes-section {
+    margin-top: 100px;
+}
+
+.notes-section .row {
+    margin-bottom: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    /* For mobile phones: */
+    .col-md-3 {
+        width: 100% !important;
+        margin-bottom: 15px !important; 
+        display: flex;
+        justify-content: center;
+    }
+    .notes-section {
+        margin-top: 45px !important;
+    }
+    .notes-section .row {
+        margin-bottom: 0px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .pre-header #datum {
+        display: none;
+    }
+
+    .pre-header #img-left {
+        display: none;
+    }
+
+    .pre-header #title img {
+        display: inline-block;
+    }
+
+  }
+
+  @media only screen and (min-width:768px) and (max-width: 1200px) {
+    /* For ipad: */
+    .col-md-3 {
+        width: 50% !important;
+        margin-bottom: 15px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .notes-section {
+        margin-top: 45px !important;
+    }
+    .notes-section .row {
+        margin-bottom: 0px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+  }
